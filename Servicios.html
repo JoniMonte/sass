@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="Header-container">
+        <nav class="Container">
+            <img src="Multimedia/Imagenes/Logo.png" alt="Make-up" class="Logo">
+            <ul class="Nav-Menu">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="#Nosotros">Nosotros</a></li>
+                <li><a href="Servicios.html">Servicio</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Seccion Principal -->
+<div class="Formulario">
+<section class="speaker-for-header">
+    <h1>Speaker Submision</h1>
+    <p>
+        <em>Want to speake at your fake conference?</em>
+    </p>
+</section>
+<form action="" method="post" class="Speaker-form">
+    <div class="form-row">
+        <label for="full-name">Name</label>
+        <input type="text" id="full-name" placeholder="Name" name="nombre" required>
+    </div>
+    <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Name" name="email" required>
+    </div>
+    
+    <fieldset class="legacy-form-row">
+        <legend>Type pf talk</legend>
+        <input type="radio" name="talk-type" id="talk-type-1">
+        <label for="talk-type1" class="radio-label">Main stage</label>
+
+        <input type="radio" name="talk-type" id="talk-type-2"checked>
+        <label for="talk-type2" class="radio-label">workshop</label>
+    </fieldset>
+
+    <div class="form-row">
+        <label for="abstracted">Textera</label>
+        <textarea name="textarea" id="abstracted"></textarea>
+        <p class="instructions">Describe your talk in 500 words or less</p>
+    </div>
+
+    <div class="form-row">
+        <button type="submit">Submit</button>
+    </div>
+</form>
+</div>
+<!-- seccion de contacto a traves de redes -->
+<section class="ContainerContacto">
+    <h1>Contactate con nosotros</h1>
+    <div class="ImgContacto">
+        <div>
+        <img src="Multimedia/Imagenes/facebook - copia.png" alt="">
+        </div>
+        <div>
+        <img src="Multimedia/Imagenes/instagram - copia.png" alt="">
+        </div>
+        <div>
+        <img src="Multimedia/Imagenes/whatsaap - copia.png" alt="">
+        </div>
+    </div>
+</section>
+
+</body>
+<!-- footer -->
+<footer>
+    <p class="Final"> Todos los derechos reservados</p>
+    <p class="Final">MontenegroJonatan@gmail.com</p>
+    <p class="Final">Cuit: 28-39847591-4</p>
+</footer>
+</html>

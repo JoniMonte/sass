@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Google Fonts barra de navegacion */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Header  font-family: 'Dosis', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 5px 5px;
+    background-color: #ffdee8;
+}
+.Header-container {
+    background-color: #ffdee8;
+    margin: 5px 5px;
+    border-bottom: 5px solid #292929;
+    position: sticky;
+    top: 5px;
+}
+.Logo {
+    width: 120px;
+}
+.Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hover del nav */
+.Nav-Menu{
+    width: 50%;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.Nav-Menu a {
+    color: #9d9101;
+    text-decoration: none;
+
+.Nav-Menu a:hover{
+    color: tomato;
+}
+/* seccion 1 imagen */
+.seccion1 {
+    margin: 5px 5px;
+}
+.seccion1 img {
+    width: 80%;
+}
+
+/* seccion 2 video */
+.Video-Container {
+    margin: 50px 5px;
+    width: 100%;
+    display: flex;
+}
+video {
+    width: 90%;
+}
+.Video {
+    width: 80%;
+    text-align: center;
+}
+
+/* Seccion-Container Grid*/
+.Grid-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.Grid-item img {
+    width: 70%;
+}
+.Grid-item {
+    align-items: center;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #9d9101 ;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #292929;
+}
+
+/* Nosotros */
+#Nosotros {
+    text-align: center;
+}
+/* animaciones y transiciones a la sseccion nosotros */
+#Nosotros:hover {
+    background-color: #999;
+    color: #d6d9dc;
+    transition: 3s;
+
+}
+
+/* footer */
+footer {
+    margin-top: 100px;
+    background-color: #292929;
+    text-align: center;
+}
+.Final {
+    font-family: 'Roboto', sans-serif;
+    color: #ffdee8;
+}
+/* animacion y transicion al footer */
+footer:hover {
+    background-color: #76aeed;
+    transition: background-color 3s;
+}
+.Final:hover{
+    color: #9d9101;
+}
+
+/* Estilos al HTML SERVICIOS */
+.Servicios-container {
+    width: 100%;
+    border-radius: 10px solid black;
+    display: flex;
+}
+.Servicios {
+    padding-top: 50px;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Pestañas img {
+    width: 100%;
+}
+
+/* Estilos al HTML Contactos */
+/* Estilos del formulario */
+.Formulario {
+    color: #5d6063;
+    background-color: #eaedf0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.speaker-for-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    width: 80%;
+    margin: 40px 0;
+    padding: 50px;
+}
+.speaker-for-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.speaker-form {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    width: 80%;
+    margin: 0 0 40px 0;
+    padding: 20px;
+}
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form-row input [type="text"],
+.form-row input [type="email"] {
+    background-color: #fff;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+.form-row label {
+    margin-bottom: 15px;
+}
+.form-row textarea {
+    font-size: 14px;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    padding: 7px;
+    min-height: 200px;
+    resize: none;
+    min-width: 100%;
+}
+.form-row .instruction {
+    color: #999;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5995da;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+.form-row button:hover {
+    background-color: #76aeed;
+}
+.form-row button:active {
+    background-color: #407fcf;
+}
+/* Estilos de HTML Contacto */
+.ContainerContacto{
+    width: 100%;
+    color: #9d9101;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.ImgContacto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ImgContacto img {
+    margin: 15px;
+    padding: 5px;
+}
+
+
+/* menu responsive */
+
+@media (max-width: 640px) {
+.Header-container {
+    background-color: #9d9101;
+    text-align: center;
+    position: sticky;
+    top: 5px;
+    }
+
+.container{
+    flex-direction: column;
+}
+
+.Nav-Menu{
+    flex-direction: column;
+}
+.Nav-Menu li a {
+    color: #d6d9dc;
+    margin: 0 0;
+    }
+}
+/* mobile */
+@media (max-width: 400px){
+    .Grid-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;}
+    
+}
