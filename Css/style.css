@@ -1,3 +1,91 @@
+body {
+  margin: 5px 5px;
+  padding: 0;
+  color: #f8bdc6;
+}
 
+.Header-container {
+  width: 100%;
+  border-bottom: 5px solid #292929;
+  position: sticky;
+  top: 5px;
+  background-color: #f8bdc6;
+}
+.Header-container .Container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header-container .Container .Logo {
+  width: 120px;
+}
+.Header-container .Container .Nav-Menu {
+  width: 60%;
+  color: #7e7b52;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+}
+.Header-container .Container .Nav-Menu li a:hover {
+  color: tomato;
+  font-size: 20PX;
+}
+
+.seccion1 img {
+  width: 100%;
+}
+
+.Video-Container {
+  margin: 50px 5px;
+  width: 100%;
+  display: flex;
+}
+.Video-Container .Video {
+  width: 80%;
+  text-align: center;
+}
+.Video-Container .Video video {
+  width: 90%;
+}
+
+/* Seccion-Container Grid*/
+.Grid-container {
+  margin-top: 30px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+.Grid-container .Grid-item {
+  align-items: center;
+}
+.Grid-container .Grid-item img {
+  width: 70%;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: #9d9101;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #292929;
+}
+
+/* Nosotros */
+#Nosotros {
+  text-align: center;
+}
+#Nosotros:hover {
+  background-color: #999;
+  color: #d6d9dc;
+  transition: 3s;
+}
 
 /*# sourceMappingURL=style.css.map */
