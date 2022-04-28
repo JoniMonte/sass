@@ -52,6 +52,15 @@ body {
   align-items: center;
 }
 
+h1 {
+  margin: 5px;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #765607;
+  font-size: 30px;
+  text-align: center;
+}
+
 .seccion1 img {
   width: 100%;
 }
