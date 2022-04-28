@@ -1,3 +1,4 @@
+@import url(_querys.scss);
 body {
   margin: 5px 5px;
   padding: 0;
@@ -33,6 +34,17 @@ body {
   color: tomato;
   font-size: 20PX;
 }
+@media screen and (max-width: 540px) {
+  .Header-container .Nav-Menu {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+.Header-container .Nav-Menu li a {
+  color: #d6d9dc;
+  margin: 0 0;
+  align-items: center;
+}
 
 .seccion1 img {
   width: 100%;
@@ -67,8 +79,27 @@ body {
 .Grid-container .Grid-item img {
   width: 70%;
 }
+@media screen and (max-width: 540px) {
+  .Grid-container {
+    margin-top: 30px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+}
+
+aside {
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #9d9101;
+}
 
 h2 {
+  align-items: center;
   font-family: "Roboto", sans-serif;
   color: #9d9101;
 }
@@ -86,6 +117,25 @@ p {
   background-color: #999;
   color: #d6d9dc;
   transition: 3s;
+}
+
+/*estilos para el footer*/
+footer {
+  margin-top: 100px;
+  background-color: #292929;
+  text-align: center;
+  /* animacion y transicion*/
+}
+footer:hover {
+  background-color: #76aeed;
+  transition: background-color 3s;
+}
+footer .Final {
+  font-family: "Roboto", sans-serif;
+  color: #ffdee8;
+}
+footer .Final:hover {
+  color: #9d9101;
 }
 
 /*# sourceMappingURL=style.css.map */
