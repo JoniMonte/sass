@@ -1,0 +1,24 @@
+/*Estilos Aside video y mas */ 
+.seccion1 {
+    img{width: 100%;}
+}
+/*section de videos*/ 
+.Video-Container{ 
+    margin: 50px 5px;
+    width: 100%;
+    display: flex;
+    .Video{
+        video{
+            width: 90%;
+        }
+        width: 80%;
+        text-align: center;
+    }
+}
+/*section aside*/ 
+aside{
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #9d9101 ;
+}

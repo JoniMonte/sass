@@ -1,0 +1,27 @@
+/*Querys Nav-Menu*/ 
+@media screen and(max-width: 540px){
+    .Nav-Menu{
+        flex-direction: column;
+        align-items:flex-end;
+    }
+}
+.Nav-Menu li a {
+color:#7e7b52;
+margin: 0%;
+padding: 0%;
+align-items: center;
+}
+
+
+/*Querys Grid Container*/ 
+@media screen and (max-width:540px){
+    .Gridcontainer{
+    margin-top: 30px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+    }
+}

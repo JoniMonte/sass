@@ -1,0 +1,22 @@
+/*Seccion Nosotros y estilos a contactos.html*/ 
+/* Nosotros */
+#Nosotros{
+    text-align: center;
+    &:hover {
+        background-color: #999;
+        color: #d6d9dc;
+        transition: all 3s;
+    }
+} 
+
+/*Seccion Contactos*/
+.ContainerContacto{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    .ImgContacto{
+        width: 100%;
+        display:flex;
+        align-items: center; 
+        justify-content: space-between;
+    }
+} 

@@ -1,0 +1,19 @@
+/*estilos para el footer*/ 
+footer {
+    margin-top: 100px;
+    background-color: #292929;
+    text-align: center;
+/* animacion y transicion*/
+    &:hover{
+        background-color: #76aeed;
+        transition: all 3s;}
+.Final {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    color: #ffdee8;
+    &:hover{
+    color: #9d9101;
+    transition: all 2s;}
+    }
+}

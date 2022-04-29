@@ -1,0 +1,16 @@
+/*Styles display Grid*/ 
+/* Seccion-Container Grid*/
+/* Seccion-Container Grid*/
+.Grid-container{
+    margin-top: 30px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+    .Grid-item{
+        align-items: center;
+        img{width: 100%;}
+    }
+}
