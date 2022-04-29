@@ -128,4 +128,32 @@ footer .Final:hover {
   transition: all 2s;
 }
 
+body {
+  margin: 5px 5px;
+  padding: 0;
+  background-color: #f8bdc6;
+}
+
+/*estylos titulos*/
+h1 {
+  margin: 5px;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #765607;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* h2 y P*/
+h2 {
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  color: #9d9101;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #292929;
+}
+
 /*# sourceMappingURL=style.css.map */
