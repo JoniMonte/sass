@@ -1,5 +1,3 @@
-/*Styles display Grid*/ 
-/* Seccion-Container Grid*/
 /* Seccion-Container Grid*/
 .Grid-container{
     margin-top: 30px;
@@ -12,5 +10,17 @@
     .Grid-item{
         align-items: center;
         img{width: 100%;}
+    }
+}
+/*Querys Grid Container*/ 
+@media screen and (max-width:540px){
+    .Gridcontainer{
+    margin-top: 30px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
     }
 }
