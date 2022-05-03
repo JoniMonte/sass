@@ -178,4 +178,24 @@ footer .Final:hover {
   justify-content: space-between;
 }
 
+/* estilos idex servicios */
+.container-servicios-img{
+  margin-bottom: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.img-servivios{
+  width: 50%;
+}
+.paragraph{
+  text-align: center;
+  padding: 15px;
+}
+
+/* estilos maps */
+.container-map {
+  width: 100%; 
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
