@@ -103,8 +103,8 @@ p {
 }
 
 /*Querys Grid Container*/
-@media screen and (max-width: 540px) {
-  .Gridcontainer {
+@media screen and (max-width: 400px) {
+  .Grid-container {
     margin-top: 30px;
     padding: 10px;
     display: grid;
