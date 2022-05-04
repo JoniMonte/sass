@@ -72,13 +72,19 @@ p {
 }
 
 /*Querys Nav-Menu*/
-@media screen and (max-width: 540px) {
-  .Nav-Menu {
+@media screen and (max-width: 420px) {
+.Nav-Menu {
+    width: 100%;
+    display: flex;
     flex-direction: column;
     align-items: flex-end;
   }
+.Logo{
+    display: none;
+  }
 }
 .Nav-Menu li a {
+  width: 100%;
   color: #7e7b52;
   margin: 0%;
   padding: 0%;
@@ -131,6 +137,12 @@ p {
 }
 .Video-Container .Video video {
   width: 90%;
+}
+@media screen and (max-width: 400px) {
+  .Video-Container {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 /*section aside*/
@@ -185,6 +197,14 @@ footer .Final:hover {
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width: 400px) {
+  .ImgContacto {
+    flex-direction: column;
+  }
+  .ImgRedes{
+    width: 10px;
+  }
+}
 
 /* estilos idex servicios */
 .container-servicios-img{
@@ -193,7 +213,7 @@ footer .Final:hover {
   display: flex;
   justify-content: center;
 }
-.img-servivios{
+.img-servicios{
   width: 50%;
 }
 .paragraph{
@@ -207,4 +227,11 @@ footer .Final:hover {
   width: 100%; 
   text-align: center;
 }
+@media screen and (max-width: 620px){
+  .map{
+    width: 120px;
+    height: 120px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
